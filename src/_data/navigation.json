@@ -1,0 +1,8 @@
+[
+  { "title": "Home", "url": "/" },
+  { "title": "Call for Papers", "url": "/call-for-papers/" },
+  { "title": "Organization", "url": "/organization/" },
+  { "title": "Program Committee", "url": "/program-committee/" },
+  { "title": "Program", "url": "/program/" },
+  { "title": "Speakers", "url": "/speakers/" }
+]

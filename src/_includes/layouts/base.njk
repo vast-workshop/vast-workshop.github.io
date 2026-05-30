@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title or site.title }} | {{ site.subtitle }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ site.baseUrl }}/assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrapper header-inner">
+        <a class="site-title" href="{{ site.baseUrl }}/">{{ site.title }}</a>
+        <nav class="site-nav" aria-label="Primary navigation">
+          {% for item in navigation %}
+            <a href="{{ site.baseUrl }}{{ item.url }}">{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-content">
+      {{ content | safe }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrapper footer-inner">
+        <span>{{ site.title }} - {{ site.subtitle }}</span>
+        <a href="#top">Back to top</a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,87 @@
+<svg width="1120" height="640" viewBox="0 0 1120 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Agent trace ledger</title>
+  <desc id="desc">A structured diagram showing developer intent flowing through context, tool actions, evidence, verification, security checks, and review.</desc>
+  <rect width="1120" height="640" rx="28" fill="#F7F5EF"/>
+  <path d="M88 96H1032" stroke="#D7D0C2" stroke-width="2"/>
+  <path d="M88 544H1032" stroke="#D7D0C2" stroke-width="2"/>
+  <path d="M146 98V542" stroke="#D7D0C2" stroke-width="1.5" stroke-dasharray="8 10"/>
+  <path d="M336 98V542" stroke="#D7D0C2" stroke-width="1.5" stroke-dasharray="8 10"/>
+  <path d="M560 98V542" stroke="#D7D0C2" stroke-width="1.5" stroke-dasharray="8 10"/>
+  <path d="M784 98V542" stroke="#D7D0C2" stroke-width="1.5" stroke-dasharray="8 10"/>
+  <path d="M974 98V542" stroke="#D7D0C2" stroke-width="1.5" stroke-dasharray="8 10"/>
+
+  <g font-family="Inter, Arial, sans-serif" fill="#202124">
+    <text x="88" y="62" font-size="26" font-weight="800">Agent Trace Ledger</text>
+    <text x="88" y="586" font-size="18" fill="#5E625F">intent, context, tools, evidence, verification, security, review</text>
+  </g>
+
+  <g>
+    <rect x="78" y="160" width="168" height="96" rx="10" fill="#FFFFFF" stroke="#CFC7B8" stroke-width="2"/>
+    <text x="104" y="194" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#202124">Developer</text>
+    <text x="104" y="222" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5E625F">intent</text>
+    <circle cx="214" cy="208" r="14" fill="#5B7658"/>
+  </g>
+
+  <g>
+    <rect x="276" y="150" width="180" height="116" rx="10" fill="#FFFFFF" stroke="#CFC7B8" stroke-width="2"/>
+    <text x="304" y="188" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#202124">Context</text>
+    <text x="304" y="216" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5E625F">repo, issue, policy</text>
+    <rect x="304" y="231" width="112" height="8" rx="4" fill="#E8EEE7"/>
+  </g>
+
+  <g>
+    <rect x="498" y="134" width="184" height="148" rx="10" fill="#FFFFFF" stroke="#CFC7B8" stroke-width="2"/>
+    <text x="526" y="174" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#202124">Tool actions</text>
+    <path d="M526 202H634" stroke="#287C7B" stroke-width="7" stroke-linecap="round"/>
+    <path d="M526 230H606" stroke="#B06F2F" stroke-width="7" stroke-linecap="round"/>
+    <path d="M526 258H650" stroke="#6E496B" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <rect x="714" y="150" width="184" height="116" rx="10" fill="#FFFFFF" stroke="#CFC7B8" stroke-width="2"/>
+    <text x="742" y="188" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#202124">Evidence</text>
+    <text x="742" y="216" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5E625F">tests, logs, diffs</text>
+    <circle cx="850" cy="226" r="13" fill="#287C7B"/>
+  </g>
+
+  <g>
+    <rect x="908" y="160" width="154" height="96" rx="10" fill="#FFFFFF" stroke="#CFC7B8" stroke-width="2"/>
+    <text x="936" y="194" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#202124">Review</text>
+    <text x="936" y="222" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5E625F">human gate</text>
+  </g>
+
+  <path d="M246 208H276" stroke="#202124" stroke-width="2.5"/>
+  <path d="M456 208H498" stroke="#202124" stroke-width="2.5"/>
+  <path d="M682 208H714" stroke="#202124" stroke-width="2.5"/>
+  <path d="M898 208H908" stroke="#202124" stroke-width="2.5"/>
+  <path d="M270 198L286 208L270 218" stroke="#202124" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M492 198L508 208L492 218" stroke="#202124" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M708 198L724 208L708 218" stroke="#202124" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M902 198L918 208L902 218" stroke="#202124" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g>
+    <rect x="188" y="356" width="220" height="92" rx="10" fill="#E8EEE7" stroke="#9CAF98" stroke-width="2"/>
+    <text x="216" y="392" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#202124">Trace validation</text>
+    <text x="216" y="420" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5E625F">checks before trust</text>
+  </g>
+
+  <g>
+    <rect x="452" y="348" width="216" height="108" rx="10" fill="#EEF6F5" stroke="#8CBFBE" stroke-width="2"/>
+    <text x="480" y="386" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#202124">Runtime monitor</text>
+    <text x="480" y="414" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5E625F">policy, sandbox, alerts</text>
+  </g>
+
+  <g>
+    <rect x="712" y="356" width="220" height="92" rx="10" fill="#F0E4DF" stroke="#CFA59A" stroke-width="2"/>
+    <text x="740" y="392" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="800" fill="#202124">Adversarial tests</text>
+    <text x="740" y="420" font-family="Inter, Arial, sans-serif" font-size="15" fill="#5E625F">injection and misuse</text>
+  </g>
+
+  <path d="M366 266C366 308 302 308 302 356" stroke="#5B7658" stroke-width="3" stroke-linecap="round"/>
+  <path d="M590 282V348" stroke="#287C7B" stroke-width="3" stroke-linecap="round"/>
+  <path d="M806 266C806 310 822 314 822 356" stroke="#B06F2F" stroke-width="3" stroke-linecap="round"/>
+  <path d="M408 402H452" stroke="#202124" stroke-width="2.5"/>
+  <path d="M668 402H712" stroke="#202124" stroke-width="2.5"/>
+  <path d="M446 392L462 402L446 412" stroke="#202124" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M706 392L722 402L706 412" stroke="#202124" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
