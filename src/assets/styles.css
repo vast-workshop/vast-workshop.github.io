@@ -199,7 +199,6 @@ a:hover {
   width: min(860px, 100%);
   height: auto;
   margin: 0 auto;
-  border: 1px solid var(--line);
 }
 
 .compact-topics h3 {
