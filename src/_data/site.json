@@ -1,6 +1,6 @@
 {
   "title": "VAST 2027",
-  "baseUrl": "/vast-workshop.github.io",
+  "baseUrl": "",
   "workshopName": "The 1st Workshop on Verifiable Agentic Software Engineering and Trust (VAST 2027)",
   "subtitle": "Verifiable Agentic Software Engineering and Trust",
   "description": "Establishing a research agenda for software engineering agents whose behavior is traceable, verifiable, aligned with developer intent, and robust under open-world adversarial conditions.",
