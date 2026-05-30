@@ -108,12 +108,17 @@ a:hover {
 }
 
 .vast-hero h1 {
-  max-width: none;
+  max-width: 1160px;
   margin: 0 0 20px;
   color: var(--ink);
-  font-size: clamp(20px, 1.55vw, 24px);
+  font-size: clamp(34px, 3.55vw, 56px);
   font-weight: 800;
-  line-height: 1.18;
+  line-height: 1.06;
+  letter-spacing: 0;
+}
+
+.vast-hero h1 span {
+  display: block;
   white-space: nowrap;
 }
 
@@ -317,8 +322,10 @@ th {
   .vast-hero h1 {
     font-size: clamp(32px, 9vw, 44px);
     line-height: 1.1;
+  }
+
+  .vast-hero h1 span {
     white-space: normal;
-    overflow-wrap: anywhere;
   }
 
   .vast-lead {

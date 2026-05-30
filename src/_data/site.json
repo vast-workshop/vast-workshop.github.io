@@ -2,6 +2,11 @@
   "title": "VAST 2027",
   "baseUrl": "",
   "workshopName": "1st International Workshop on Verifiable, Aligned, and Secure Agentic Software Engineering (VAST 2027)",
+  "workshopNameLines": [
+    "1st International Workshop on",
+    "Verifiable, Aligned, and Secure",
+    "Agentic Software Engineering (VAST 2027)"
+  ],
   "subtitle": "Verifiable, Aligned, and Secure Agentic Software Engineering",
   "description": "Establishing a research agenda for software engineering agents whose behavior is traceable, verifiable, aligned with developer intent, and robust under open-world adversarial conditions.",
   "year": "2027",

@@ -6,7 +6,7 @@ title: Home
 <section class="vast-hero" id="top" aria-labelledby="vast-title">
   <div class="wrapper">
     <div class="vast-hero-content">
-      <h1 id="vast-title">{{ site.workshopName }}</h1>
+      <h1 id="vast-title">{% for line in site.workshopNameLines %}<span>{{ line }}</span>{% endfor %}</h1>
       <p class="vast-lead">{{ site.description }}</p>
       <div class="vast-meta" aria-label="Workshop details">
         <span>{{ site.coLocated | safe }}</span>
