@@ -10,8 +10,8 @@ title: Home
       <p class="vast-lead">{{ site.description }}</p>
       <div class="vast-meta" aria-label="Workshop details">
         <span>{{ site.coLocated | safe }}</span>
-        <span>{{ site.location }}</span>
-        <span>{{ site.date }}</span>
+        <span>📍 {{ site.location }}</span>
+        <span>📅 {{ site.date }}</span>
       </div>
     </div>
   </div>
@@ -37,10 +37,14 @@ VAST 2027 aims to establish a research agenda for trustworthy SE agents. The wor
 
 All dates are 23:59:59 AoE (UTC-12h), unless otherwise stated.
 
-| Event | Date |
-| --- | --- |
-{% for item in dates -%}
-| {{ item.event }} | {{ item.date }} |
+<ul class="dates-list">
+{% for item in dates %}
+  <li>
+    <span class="date-icon" aria-hidden="true">{{ item.icon }}</span>
+    <span class="date-event">{{ item.event }}</span>
+    <span class="date-value">{{ item.date }}</span>
+  </li>
 {% endfor %}
+</ul>
 
 </div>

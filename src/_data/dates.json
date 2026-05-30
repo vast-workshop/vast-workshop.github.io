@@ -1,6 +1,6 @@
 [
-  { "event": "Submission Deadline", "date": "27 November 2026" },
-  { "event": "Acceptance Notification", "date": "11 December 2026" },
-  { "event": "Camera-Ready Papers Due", "date": "20 January 2027" },
-  { "event": "Workshop Date", "date": "1 May 2027" }
+  { "icon": "📝", "event": "Submission Deadline", "date": "27 November 2026" },
+  { "icon": "✅", "event": "Acceptance Notification", "date": "11 December 2026" },
+  { "icon": "📄", "event": "Camera-Ready Papers Due", "date": "20 January 2027" },
+  { "icon": "📅", "event": "Workshop Date", "date": "1 May 2027" }
 ]
